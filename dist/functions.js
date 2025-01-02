@@ -15,3 +15,10 @@ function userInfo(name, age, role = "guest") {
 }
 userInfo("Omar Faruk", 25, "admin");
 userInfo("Faruk Khan", 40);
+// Output
+// Name: Omar Faruk;
+// Age: 25;
+// Role: admin;
+// Name: Faruk Khan
+// Age: 40
+// Role: guest

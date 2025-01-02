@@ -13,4 +13,4 @@ function reverseString(input) {
 }
 const input = "hello";
 const output = reverseString(input);
-console.log(output);
+console.log(output); // Output: "olleh"

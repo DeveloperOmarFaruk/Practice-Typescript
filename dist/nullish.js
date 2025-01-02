@@ -6,6 +6,6 @@
 function getDisplayName(name) {
     return name !== null && name !== void 0 ? name : "Anonymous";
 }
-console.log(getDisplayName("John"));
-console.log(getDisplayName(null));
-console.log(getDisplayName(undefined));
+console.log(getDisplayName("John")); // Output: "John"
+console.log(getDisplayName(null)); // Output: "Anonymous"
+console.log(getDisplayName(undefined)); // Output: "Anonymous"
