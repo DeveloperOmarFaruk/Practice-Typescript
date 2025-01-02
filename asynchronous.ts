@@ -29,3 +29,7 @@ async function fetchUserData(): Promise<UserInfo> {
   const user = await fetchUserData();
   console.log("User data:", user);
 })();
+
+// output
+// Fetching user data...
+// User data: { name: 'John Doe', age: 25 }
