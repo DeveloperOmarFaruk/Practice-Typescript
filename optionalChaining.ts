@@ -28,5 +28,5 @@ const employee2: Employee = {
   name: "Bob",
 };
 
-console.log(getEmployeeCity(employee1));
-console.log(getEmployeeCity(employee2));
+console.log(getEmployeeCity(employee1)); // Output: "New York"
+console.log(getEmployeeCity(employee2)); // Output: undefined

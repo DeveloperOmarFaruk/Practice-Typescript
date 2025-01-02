@@ -16,5 +16,5 @@ function processInput(input: string | number): number {
   }
 }
 
-console.log(processInput("hello"));
-console.log(processInput(4));
+console.log(processInput("hello")); // Output: 5 (length of the string)
+console.log(processInput(4)); // Output: 16 (square of the number)

@@ -46,3 +46,24 @@ const combinedExample: BookAndMagazine = {
 console.log(bookExample);
 console.log(magazineExample);
 console.log(combinedExample);
+
+// Output
+// {
+//   title: 'The Great Gatsby',
+//   author: 'F. Scott Fitzgerald',
+//   pages: 180
+// }
+
+// {
+//   title: 'National Geographic',
+//   issue: 225,
+//   publishedDate: 'January 2025'
+// }
+
+// {
+//   title: 'The Great Gatsby',
+//   author: 'F. Scott Fitzgerald',
+//   pages: 180,
+//   issue: 225,
+//   publishedDate: 'January 2025'
+// }

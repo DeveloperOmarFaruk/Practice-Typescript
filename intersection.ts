@@ -30,3 +30,4 @@ const admin: AdminUser = {
 };
 
 console.log(describeAdmin(admin));
+// Output: "John Doe (john.doe@example.com) is an admin with level 5."
